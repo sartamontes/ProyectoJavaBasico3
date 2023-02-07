@@ -7,6 +7,7 @@ public class Texto {
         String[] cadenas = {"Uno", "Dos", "Tres","Cuatro"};
 
         System.out.println(concatenaCadenas(cadenas));
+
     }
 
     // Función que recoge una array de cadenas y lo concatena
