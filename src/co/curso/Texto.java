@@ -15,7 +15,10 @@ public class Texto {
 
         String cadenaFinal = "";
         for (String cadena : cadenas) {
-            cadenaFinal += cadena;
+            // option1:
+            // cadenaFinal += cadena;
+            // option2:
+            cadenaFinal = cadenaFinal.concat(cadena);
 
         }
         return  cadenaFinal;
